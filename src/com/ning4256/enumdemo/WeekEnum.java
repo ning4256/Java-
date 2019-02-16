@@ -32,28 +32,13 @@ public enum WeekEnum {
 	public void setWeekIndex(int weekIndex) {
 		this.weekIndex = weekIndex;
 	}
-	//常用方法
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	//主方法
+	// 常用方法
+
+	// 主方法
 	public static void main(String[] args) {
 		// 使用枚举实例
 		WeekEnum mon = WeekEnum.MON;
-		//compareTo方法
+		// compareTo方法
 		int i = mon.compareTo(SAT);
 		System.out.println(i);
 		int j = mon.ordinal();
