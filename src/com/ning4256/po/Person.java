@@ -1,5 +1,4 @@
-package com.ning4256.enumdemo;
-
+package com.ning4256.po;
 
 import com.ning4256.annotation.Annonation.Column;
 import com.ning4256.annotation.Annonation.Table;

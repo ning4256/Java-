@@ -10,7 +10,6 @@ import com.ning4256.po.UserPo;
 
 public class Test01 {
 	public static <T> T enca(Map<?, ?> map, Class<T> class1) throws Exception {
-
 		T t = null;
 		// 非空判断
 		if (map == null || class1 == null) {
@@ -34,6 +33,7 @@ public class Test01 {
 		map.put("id", 1);
 		map.put("name", "伍川");
 		
+		@SuppressWarnings("unchecked")
 		Class<UserPo> class1 = (Class<UserPo>) Class.forName("com.ning4256.po.UserPo");
 		System.out.println(enca(map, class1));
 

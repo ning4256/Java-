@@ -1,7 +1,10 @@
 package com.ning4256.po;
 
+
 public class UserPo {
+	@column("id")
 	private int id;
+	@column("name")
 	private String name;
 	public UserPo() {
 		
