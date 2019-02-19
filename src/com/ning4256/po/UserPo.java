@@ -1,10 +1,13 @@
 package com.ning4256.po;
 
+import com.ning4256.annotation.Annonation.Column;
+import com.ning4256.annotation.Annonation.Table;
 
+@Table("person")
 public class UserPo {
-	@column("id")
+	@Column( "id")
 	private int id;
-	@column("name")
+	@Column("name")
 	private String name;
 	public UserPo() {
 		

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jdbc-config>  
+    <named-config name="myjdbc">  
+        <property name="driverClass">com.mysql.jdbc.Driver</property>  
+        <property name="jdbcUrl">jdbc:mysql://localhost:3306/xiaomi</property>  
+        <property name="user">root</property>  
+        <property name="password">123456</property>
+    </named-config>
+   
+</jdbc-config>
